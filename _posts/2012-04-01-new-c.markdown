@@ -1,0 +1,8 @@
+---
+layout: post
+title: New C++
+date: 2012-04-01 20:48:31.000000000 +02:00
+---
+<iframe style="height:288px;width:512px" src="http://channel9.msdn.com/Shows/The+Knowledge+Chamber/C-A-Language-for-Modern-Times/player?w=512&h=288" frameBorder="0" scrolling="no" ></iframe>
+
+The new standard that was approved last year, will bring a lot of improvements to C++ and reduce some of the gap to Java. Some of Java's newest additions like lambda and the foreach loop have been taken over to C++ without much change. Watch the above video for some mindblowing (at least for programmers) example of these new features in combination with super-easy use of asynchronous multi-threading. The example begins around minute 15,16.

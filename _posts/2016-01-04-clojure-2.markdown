@@ -1,0 +1,39 @@
+---
+layout: post
+title: Clojure vs. Java
+date: 2016-01-04 21:03:11.000000000 +01:00
+---
+My current main language is Java but I've started working in Clojure because I was so impressed by its power, conciseness, elegance, community and tooling. Rather than try and fail to give lengthy language history explanations or find objective criteria for choosing it as a programming language, I'll try to give you an impression why I've started using it.
+
+I've worked with Java for some time and it's become  a trusted tool. Its blessing and its curse are its simplicity. If you've understood the basic syntax, you can write pretty okay code and you can understand a lot of code others have written. There are only a limited number of more esoteric language constructs like generics or gotchas like the equals method instead of the ==-operator or dynamic type features like reflection and its dynamic proxies.
+
+## Syntax - how low can you go?
+
+If Java's syntax is simple, Clojure's syntax is so reduced it's sometimes hard to see. There are a few so-called forms for basic data structures like lists, vectors and maps and of course literals for primitive types. Shockingly you're programs will also be made out of these data structures:
+
+{% highlight clojure %}
+; list of two numbers
+'(1 2)
+; vector of two numbers
+[1 2]
+; Program that adds two numbers and a call to it
+(defn add [a b] (+ a b))
+(add a b)
+{% endhighlight %}
+
+Representing code as data allows you to transform it as you see fit, e.g. with macros that transform any expression in a different one. Clojure has a number of [special forms](http://clojure.org/special_forms) like "if" or "fn" for functions or "loop" and some of them can even be implemented in the language itself like "and", which is still the unintuitive && in Java.
+
+## Power through conciseness
+
+When comparing program languages more power for programmers is sometimes a double-edged sword. C/C++'s ability to manage memory directly comes with the high price of headaches if you overlook some allocations or even crash your program. Clojure is more powerful because its ratio of number of characters/lines to logic is much lower than e.g. Java. This lower signal-to-noise ratio comes from reduced syntax - you don't need that many keywords -, you don't need classes because it's a functional language and you don't even need types. Although there's no consensus yet if strong/weak or dynamic/static typing are better (see [this meta-survey](http://danluu.com/empirical-pl/) by Dan Luu), leaving them out can make your program much more readable because behavior becomes clearer. Clojure has dynamic strong types in Dan's classification and seems to do well in [one of these studies ("A Large Scale Study of Programming Languages and Code Quality in Github")](http://danluu.com/empirical-pl/) though.
+
+## Food for thought
+
+I'll leave you with this short impression of Clojure, but I'll you give you some more pointers what makes Clojure interesting:
+
+* JVM-language: easy interoperability with Java and its libraries
+* Isomorphy: Clojure(-script) can be transpiled to Javascript and the same code can be used in the browser and in the backend
+* REPL: Java 9's killer feature of a live interpreter is already there, which allows a powerful exploratory programming style similar in style to the short iterations of TDD
+* Libraries: there's already a large selection of available libraries that let you do almost anything, especially for the web development is super nice - see this [impressive demo](https://www.youtube.com/watch?v=KZjFVdU8VLI). Larger frameworks are eschewed in Clojure in favor of pluggable smaller libraries.
+
+If you want to do a very short live online tutorial go [here](http://www.tryclj.com/).

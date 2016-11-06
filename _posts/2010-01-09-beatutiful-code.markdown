@@ -1,0 +1,8 @@
+---
+layout: post
+title: Beautiful code?
+date: 2010-01-09 18:21:54.000000000 +01:00
+---
+I've enjoyed the luxury of full-time employment over the last month and I've enjoyed the fruits of my work aka cash in the form of shiny new things. One of these is the book "Beautiful code". In this book a range of well-known and not so well-known computer experts describe what they perceive as beautiful code. I was most intrigued about the description of delta debugging by my former prof Andreas Zeller and there are a lot of other interesting descriptions.
+
+In contrast there's this article on "Gene sorter", which I find rather ugly. The author praises his CGI-script in C with comments like because we basically have to be stateless because of CGI limitations, we don't have to care about memory leaks. That's quite a statement! Maybe the definitions of beautiful source code vary widely, but praising a limitation, that requires many workarounds as an advantage is a bit much. Another construct he praises is object orientation in C. Yes, it exists. Basically a "C-object" is a <code>struct</code> with function pointers. This has some advantages for programmers, but it can become very ugly, because there's guarantee that a function pointer is assigned and because there's no constructor or access control. I've had to deal with this kind of problems in the Xen source code. In addition to function pointers each "object" in also has references which are set a wildly different places and it was a nightmare to find out where they were set. I sometimes had to write such ugly code too, but at least I didn't write a chapter in a book about how nice it is ;-)

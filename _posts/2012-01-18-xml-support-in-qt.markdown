@@ -1,0 +1,12 @@
+---
+layout: post
+title: XML support in Qt
+date: 2012-01-18 22:38:56.000000000 +01:00
+---
+When working with XML it's so very important to have support for the whole specification. Otherwise you end up with "sort-of" supporting XML, which kills you in when dealing with other partners. Unfortunately XML support in Qt seems to be an example of this. At least in the version 4.6.2, we are using at our company, there are actual source code comments "// TODO implement" in the schema validation support. If you find this gotcha, which is not mentioned in its documentation, you are stuck with the decision to ditch it or to bloat your software with yet another 3rd party SDK. 
+
+Support for XML Schema validation was added to Qt in 2009 <a href="http://labs.qt.nokia.com/2009/07/31/qt-46-with-xml-schema-support/">1</a> <a href="http://labs.qt.nokia.com/2009/02/03/w3c-xml-schema-validation-with-qt/">2</a> ( a bit late to the party, anyways ) by Tobias Koenig in his internship. I can only speculate that nobody else was assigned responsible for validation support and therefore the project suffered. In Qt's bug tracker there are a couple of long standing bugs for XML documents that make the validation algorithm run very very very long. The thing I dislike about this, is the half-assed-nes of the current implementation which stands in stark contrast to Qt's otherwise great code quality.
+
+Another problem I have with Qt's XML support is it's support for XPath/XQuery. Querying with it is easy enough. You can get a nice QStringList for a XPath expression and everything is dandy, but god forbid you try to change an XML document using an XPath expression or get a DOM representation of your document. You just can't. Apparently support for good ol' QDomDocument is supposed to be phased out for Qt 5 and nothing is happening there. That's a shame, because we're heavily using it and moreover it would be soo convenient to have an alternative to manually traversing the whole XML tree to the one attribute/element that you are interested in. 
+
+Well, the only alternative I see to this, is to use a XSLT identity transformation with the whole XML document being copied except the one node you are interested in, specified by an XPath expression. Seems to be an overly complicated solution and it emphasizes how much we really need at least XQuery Update in Qt or something as convenient in the new generation of QDomDocument.

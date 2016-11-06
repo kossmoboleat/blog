@@ -1,0 +1,15 @@
+---
+layout: post
+title: Playing in IT
+date: 2015-02-01 16:36:19.000000000 +01:00
+---
+
+We in IT have a very wide bandwith of attitudes toward our job. There are some people that just see it as a means to an end, e.g. process something using the machine. Then you're of course in pretty much ignoring the path, that got you from A to B. Others only want to earn some money and don't care much for how they do it. On the other extreme are the passionate, that concentrate on all the details, but often forget the big goal or the relative isignificance of many technical decisions.
+
+If you're on a long-term project - and most projects in IT are long-term - you risk falling in one of those classes of programmer and sticking with it or even cultivating "your approach". I suggest to "play" something else to get out of this creative rut. If you work on every detail and tend to be perfectionist, work on a project that requires fast results and has a certain uncertainty to it. That could be Javascript programming for example, with its dynamic language and different browser behavior. If you're used to working fast and sloppy, take a very restricted language like Java and build a system with a very defined architecture and any appropriate design pattern. 
+
+Or work on something outside of your normal comfort zone. Learn a very new language or change to a domain that interests you. One thing that always prevented me from doing some actual "side project" besides my work or studies, was a lack of motivation. After some point you just lose interest because you've tried out something new and it didn't lead anywhere. That's actually fine, because you still managed to look at some new paradigms and you got a new perspective on how to solve problems. For me this new challenge was to learn the functional programming language Clojure. It's a LISP dialect with a lot of parantheses and very few side effects. It's very good for "playing" with code, because of its dynamic nature and its interpreter programming workflow using a REPL (read, eval, print / loop).
+
+The next important step is to share your experience, which im doing with this blog post and some futures ones. The reason many employers value work experience so much more than any hobby work you did besides work or at the university, is the retention and experience you got from it. If you hack away on your keyboard at home and never share it, you're bound to follow you're old ideas even using these new technologies. There are a lot of self-learned OOP programmers that continued writing modular software even in Java or C++. I think key to sharpening your edge with play, is to share your work and open in to other people. For now I'm only sharing my thoughts with you, but I plan to present a beta of my new side project very soon.
+
+To be complete I want to mention that testing out technologies is just one method to try out new things. Working in new ways is a different technique you can use. Why not try out code katas, visual thinking, pair programming, TDD or literate programming to flex those creative muscles?

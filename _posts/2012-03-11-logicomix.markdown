@@ -1,0 +1,15 @@
+---
+layout: post
+title: Logicomix
+date: 2012-03-11 14:40:09.000000000 +01:00
+---
+I've read a few books recently, that deal with novelization of the beginnings of natural science and of mathematics and computers in particular. There's a host of material available to the interested reader, that manages to bring some life into the rigid underpinnings of theoretical computer science and the Internet with the stories of the (mostly mad) people that created them. <a href="http://www.amazon.de/gp/product/3864970040/ref=as_li_ss_tl?ie=UTF8&tag=timben08-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=3864970040">"Logicomix"</a><img src="http://www.assoc-amazon.de/e/ir?t=timben08-21&l=as2&o=3&a=3864970040" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> (in <a href="http://www.amazon.de/gp/product/1596914521/ref=as_li_ss_tl?ie=UTF8&tag=timben08-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=1596914521">english</a><img src="http://www.assoc-amazon.de/e/ir?t=timben08-21&l=as2&o=3&a=1596914521" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />) is a graphic novel, although it has the name "comic" in it ;-). It tells the story of a group of mathematicians that established the foundations of mathematics by finding a formalization of logic, which allows to more precisely define the truth of a mathematical theorem. Moreover they defined more precisely what can be proven by mathematics (hint: not everything) and which aspects of everyday life can be described by formal logic.
+
+<a href="http://www.amazon.de/gp/product/1596914521/ref=as_li_ss_tl?ie=UTF8&tag=timben08-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=1596914521"><img src="http://upload.wikimedia.org/wikipedia/en/6/60/Logicomix_cover.jpg" alt="Logicomix cover" /></a>
+
+Especially that last part, was a frequent cause and symptom of the mental drain on many logicians. The book even discusses this theme in a sort of meta level, where the authors discussion is depicted in the novel, too. Set in the end of the 19th century and the beginning of the 20th century up until the second world war, it's not so difficult to imagine people going mad, but the "search for truth" turned many "mathematical giants" into mental asylum cases. Some start to descend into <a href="http://en.wikipedia.org/wiki/Georg_Cantor">mysticism</a> and <a href="http://en.wikipedia.org/wiki/Gottlob_Frege#1924_diary">Frege even became an anti-semit</a>. We can be thankful, that today we have computers, because so many people wasted their mind on it.
+
+Logicomix main character is Bertrand Russel, who was a great logician, philosopher and an outspoken pacifist. Russel avoided madness, perhaps not coincidentally because he mostly stopped working on logic after he turned 40 and turned to philosophy and pacifism. Moreover Logicomix is drawn in beautiful colors and weighs in at 344 pages which justifies it's classification as graphic novel beside the "more serious" topic.
+
+Links:
+The book's <a href="http://www.logicomix.com/en/">website</a>.

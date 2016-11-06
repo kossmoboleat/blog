@@ -1,0 +1,30 @@
+---
+layout: post
+title: Losing screen size with widescreen displays
+date: 2009-11-17 15:14:35.000000000 +01:00
+---
+There's something very appealing about widescreen displays and TVs, the wide ratio just seems more natural to the human eye my father always told me. Maybe it has something to do with our past, in which the prehistorical hunter scanned the savanne for game. Who knows..
+
+The trend in recent years goes more and more in this direction and there are a lot of 16:10 and recently some 16:9 displays have surfaced. But the newest "invention" are "cinema ratio" displays wiht a 21:9 resolution. Apart from the different window behaviour needed for this, there's another issue to be considered here: lost screen estate.
+
+This applies to the common diagonal length comparison. It seems intuitive that if you keep the diagonal constant and  the more you increase the width/height ratio, the smaller the actual screen area gets.
+
+Here's a small python script that computes the screen area for any given diagonal and the ratio:
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 133px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">def ca(e,ratio_shorter_over_longer):</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 133px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">ratio = ratio_shorter_over_longer</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 133px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">b = math.sqrt(1.0/(ratio**2 + 1)) * e</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 133px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">a = ratio * b</div>
+<div id="_mcePaste" style="position: absolute; left: -10000px; top: 133px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;">return a*b</div>
+<pre>def ca(e,ratio_shorter_over_longer):
+    ratio = ratio_shorter_over_longer
+    b = math.sqrt(1.0/(ratio**2 + 1)) * e 
+    a = ratio * b
+    return a*b</pre>
+I'll spare you the simple mathematics to simplify this to compare two ratios with each other. The result is:
+<pre>def cr(r1,r2):
+    Ar1 = r1/((r1**2) + 1)
+    Ar2 = r2/((r2**2) + 1)
+return Ar1/Ar2</pre>
+For example cr(10/16.,3/4.) gives 0.93 = 93%. For the other ratios you get:
+16:9 vs. 4:3 = 89%
+21:9 vs. 4:3 = 75%

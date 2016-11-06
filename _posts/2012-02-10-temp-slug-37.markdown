@@ -1,0 +1,10 @@
+---
+layout: post
+title: Weather Maps
+date: 2012-02-10 16:22:54.000000000 +01:00
+---
+In earlier times weather decided over life and death. Today it still decides what we can do and how we feel. As much as we have advanced, weather forecasts are often very unreliable and we often feel helpless much as our ancestors must have.
+
+As daily or weekly weather forecasts are famously unreliable - of course they always fail when you actually rely on them - actual images of the current clouds. This can be seen on radar images, i.e. [buienradar.nl](http://www.buienradar.nl/) for much of Northrhine-Westphalia and Lower Saxony. Hanover is the small yellow dot east of the bigger lake between Weser and Leine. The site is very reliable and you can plan your biking trips nicely with it, even in the rainy north of Germany.
+
+If your searching for a more longterm view, take a look at [weatherspark.com](http://weatherspark.com). It's daily forecast is very detailed with exact temperature predictions per hour and when and how much it will rain. You can also see current and historical temperatures for many places on earth. The statistics, called "averages", give you a nice feel on how the weather behaves on a larger scale. You also get statistics on sunshine hours, precipation probabilies and speed and direction of winds, which I found very instructive.
