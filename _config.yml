@@ -4,8 +4,7 @@ permalink: :title/
 # Setup
 title: Code Play
 tagline: a software blog by tim benke
-description: > # this means to ignore newlines until "baseurl:"
-  A blog on software and the world around it by Tim Benke.
+description: A blog on software and the world around it by Tim Benke.
 url: https://kossmoboleat.github.io
 baseurl: /blog
 twitter_username: timbenke

@@ -5,7 +5,7 @@ date: 2012-05-07 00:35:11.000000000 +02:00
 ---
 I'm still adding little features and working on the design of my lunch organizer app. I've added nice javascript widgets for handling the input of dates and times. jQuery UI is a nice library that is the UI extension of the excellent jQuery library. Among many other things it features a very nice widget for <a href="http://jqueryui.com/demos/datepicker/">picking dates</a>:
 
-<a href="{{ site.github.url }}/images/lunch-organizer_version7_form_datepicker.png" alt="" title="lunch-organizer_version7_form_datepicker" width="436" height="278" class="alignnone size-full wp-image-598" /></a>
+<a href="{{ site.github.url | prepend:site.baseurl }}/images/lunch-organizer_version7_form_datepicker.png" alt="" title="lunch-organizer_version7_form_datepicker" width="436" height="278" class="alignnone size-full wp-image-598" /></a>
 
 Although the HTML5 <a href="http://www.w3schools.com/html5/html5_form_input_types.asp">input type "date"</a> hopefully brings us the functionality with simple HTML, we have to settle for this version for now (only Opera displays a special widget for the "date"-type). Unfortunately there's no default widget for time fields in jQuery UI. I'm not sure why that is so. Maybe it's selection process is a bit slow? I've looked at a number of widgets for choosing time and it's very refreshing to see how many interesting approaches have been invented for this:
 
@@ -16,7 +16,7 @@ Although the HTML5 <a href="http://www.w3schools.com/html5/html5_form_input_type
 	<li><a href="http://keith-wood.name/timeEntry.html">Keith Wood's take, which reminded me of Qt's QTimeEdit</a></li>
 </ul>
 
-<a href="{{ site.github.url }}/images/lunch-organizer_version7_form_timepicker.png" alt="" title="lunch-organizer_version7_form_timepicker" width="346" height="258" class="alignnone size-full wp-image-599" /></a>
+<a href="{{ site.github.url | prepend:site.baseurl }}/images/lunch-organizer_version7_form_timepicker.png" alt="" title="lunch-organizer_version7_form_timepicker" width="346" height="258" class="alignnone size-full wp-image-599" /></a>
 
 In the end I chose the excellent widget by <a href="http://fgelinas.com/">François Gélinas</a>.
 

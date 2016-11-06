@@ -14,5 +14,5 @@ Now my apps.yaml looks like this:
 Any path that starts with /media is translated to the path static/media in your project folder then. It's advised to distinguish between the actual path and the path used in your templates this way. I imagine the reason is again security, but isn't this security by obscurity and not even that much obscurity because it's rather obvious? I'll have to do some more research on this. One disadvantage of this approach is that a local django test server of course can't see the files because the app.yaml configuration is specific to GAE. I hope there's an easy fix for this and you can actually use both with the same set of files.
 
 Now that my site uses some fancy external css file, that defines the default font, it looks like this:
-<a href="{{ site.github.url }}/images/lunch-organizer_version2_table.png" alt="" title="lunch-organizer_version2_table" width="640" height="422" class="alignnone size-full wp-image-508" /></a>
+<a href="{{ site.github.url | prepend:site.baseurl }}/images/lunch-organizer_version2_table.png" alt="" title="lunch-organizer_version2_table" width="640" height="422" class="alignnone size-full wp-image-508" /></a>
 
