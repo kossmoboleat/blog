@@ -3,7 +3,7 @@ layout: post
 title: Developing Web-Sites in Typescript
 date: 2013-09-09 01:01:31.000000000 +02:00
 ---
-<p><a href="/images/logo_small.png" alt="logo_small" width="250" height="61" class="alignnone size-full wp-image-845" /></a></p>
+<p><a href="{{ site.url }}/images/logo_small.png" alt="logo_small" width="250" height="61" class="alignnone size-full wp-image-845" /></a></p>
 
 <p>I've started using typescript for my current project. It's a website that is very heavy on the client side with a lot of dynamic javascript code. While it's technically javascript, it's actually compiled typescript code. What does typescript offer, that you don't get immediately for free with javascript? A lot :-)</p>
 
