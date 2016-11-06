@@ -6,7 +6,7 @@ title: Code Play
 tagline: 'a software blog by tim benke'
 description: > # this means to ignore newlines until "baseurl:"
   A blog on software and the world around it by Tim Benke.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://blog.timbenke.de"
 twitter_username: timbenke
 github_username:  kossmoboleat
