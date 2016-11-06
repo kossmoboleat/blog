@@ -5,8 +5,8 @@ permalink: :title/
 title: Code Play
 tagline: a software blog by tim benke
 description: A blog on software and the world around it by Tim Benke.
-url: https://kossmoboleat.github.io
-baseurl: /blog
+url: https://blog.timbenke.de
+baseurl: ""
 twitter_username: timbenke
 github_username: kossmoboleat
 paginate: 5
