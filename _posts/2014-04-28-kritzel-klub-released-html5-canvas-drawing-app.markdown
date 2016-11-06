@@ -5,7 +5,7 @@ date: 2014-04-28 00:18:42.000000000 +02:00
 ---
 I've just finished the basic version of a long-time project called ["Kritzel Klub"](http://www.kritzel-klub.de) (doodle club). This was a long running project that I care a lot about. The prospective audience are kids 7-12 years old, but I tend to enjoy it a lot too to be honest. Basically many people lose the ability to enjoy drawing when they start "real" school at this age. 
 
-![kritzel-klub.de screenshot]({{ site.github.url | prepend:site.baseurl }}/images/Kritzelklub-2014-05-04-at-12-59-27-800px.jpg)
+![kritzel-klub.de screenshot]({{ site.github.url }}/images/Kritzelklub-2014-05-04-at-12-59-27-800px.jpg)
 
 [Christoph Geiger](http://www.christophgeiger.de), the designer behind ["Kritzel Klub"](http://www.kritzel-klub.de), tried to find ways to let people just start doodling whithout fear of being judged. [Originally he did this with an installation](http://kritzel-klub.de/event/), where he put a big wallpapering table in an art gallery and let the visitors have a got at it with crayons. Amazingly this worked very well. Many "sophisiticated" visitors were delighted with the idea and hogged the table to make doodles and and occupied the different game stations with different drawing activities.
 
@@ -13,7 +13,7 @@ I've just finished the basic version of a long-time project called ["Kritzel Klu
 
 After this initial success, Christoph thought about a digital equivalent that can be published online to reach an even larger audience. This is were I came in. We've been busy building a site around his original idea for several months and it's been online for a couple of days. The end result works well and Christoph's design stands in stark contrast to the usual clean-cut design of most sites or the candy sweet comic style of many sites for children. I'm also very happy we accomplished it with HTML5 instead of Flash, which is still used for many funded projects.
 
-![color bar zoom]({{ site.github.url | prepend:site.baseurl }}/images/color_zoom.jpg)
+![color bar zoom]({{ site.github.url }}/images/color_zoom.jpg)
 
 One of the challenges was always to create this unique hand-drawn look with a drawable dynamic background and of course the site should work in almost all resolutions. Unfortunately the most obvious solution with a percentage based width and height would not work:
 
