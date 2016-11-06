@@ -3,20 +3,20 @@ permalink: :title/
 
 # Setup
 title: Code Play
-tagline: 'a software blog by tim benke'
+tagline: a software blog by tim benke
 description: > # this means to ignore newlines until "baseurl:"
   A blog on software and the world around it by Tim Benke.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://kossmoboleat.github.io"
+baseurl: /blog
+url: https://kossmoboleat.github.io
 twitter_username: timbenke
-github_username:  kossmoboleat
+github_username: kossmoboleat
 paginate: 5
 paginate_path: "page:num"
 
 # About/contact
 author:
-  name:              Tim Benke
-  url:               https://twitter.com/timbenke
-  email:             timbenke@gmail.com
+  name: Tim Benke
+  url: https://twitter.com/timbenke
+  email: timbenke@gmail.com
 
 gems: [jekyll-paginate]
