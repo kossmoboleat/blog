@@ -7,7 +7,7 @@ tagline: 'a software blog by tim benke'
 description: > # this means to ignore newlines until "baseurl:"
   A blog on software and the world around it by Tim Benke.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "http://blog.timbenke.de"
+url: "https://kossmoboleat.github.io"
 twitter_username: timbenke
 github_username:  kossmoboleat
 paginate: 5
