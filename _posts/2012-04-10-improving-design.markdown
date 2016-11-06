@@ -54,4 +54,4 @@ th:only-child{
 </pre>
 
 All in all it looks like this now:
-<a href="{{ site.url }}/images/lunch-organizer_version3_table.png" alt="" title="lunch-organizer_version3_table" width="530" height="393" class="alignnone size-full wp-image-528" /></a>
+<a href="{{ site.github.url }}/images/lunch-organizer_version3_table.png" alt="" title="lunch-organizer_version3_table" width="530" height="393" class="alignnone size-full wp-image-528" /></a>
