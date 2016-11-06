@@ -78,4 +78,4 @@ bool Solver::recursiveSolve(int depth)
 
 First the program tries to derive all the numbers that follow logically from existing numbers. These "derivations" are then stored as are the different choices that are tried in each backtracking step. If a backtracking step turns out to be invalid it returns false and its calling step tries another value for the cell in question.
 
-You can download the whole thing <a href='/assets/SudokuSolver_0.1.zip'>here</a>. It's a Qt project that you can easily import into Qt Creator that's part of <a href="http://qt.nokia.com/products/qt-sdk/" title="Qt-SDK">Qt-SDK</a>.
+You can download the whole thing <a href='{{ site.url }}/assets/SudokuSolver_0.1.zip'>here</a>. It's a Qt project that you can easily import into Qt Creator that's part of <a href="http://qt.nokia.com/products/qt-sdk/" title="Qt-SDK">Qt-SDK</a>.
