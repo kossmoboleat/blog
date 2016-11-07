@@ -1,0 +1,15 @@
+---
+layout: post
+title: Leaders need Tech Literacy
+date: 2016-11-07
+---
+
+It's often claimed that our leaders need to know something about technology. Many think they should code too. And when there is a politician that does know a bit about coding, we coders extraordinarily [praise](https://news.ycombinator.com/item?id=9419035) him. This affection shows a well-meaning and uncharacteristic side of hacker culture. It's much more common that politicians are critized for their ignorance and their views are belittled because they're supposedly out of touch with (our technical) reality.
+
+Most of the time my first impulse is to question politicians for their lack of knowledge too and I sometimes have horror visions of politicians voting laws without understanding a word of them. Then I think that a politicians job is indeed not to be technically savvy but choose his aids carefully and delegate efficiently. Nowadays it's not possible to know everything about everything and I'd much rather have a politician that's a great organizer and influencer with proper ethics than a technician that doesn't see the forest for the trees.
+
+The first story in the podcast ["This American Life"](https://www.thisamericanlife.org/radio-archives/episode/601/master-of-her-domain-name) looks at Hillary Clinton's email fiasco and concludes that the root of the problem could well have been simple incompetence and ignorance of IT instead of a conspiracy to hide documents. Apparently Clinton "was not able to use a Desktop PC". I find it appaling that someone should become the most powerful politician in the US, but not being able to use the ubiquitious technology since at least the 80's. Like many professional politicians she has lived a life very different that normal peoples. Always using aides for even the most basic tasks of everyday life must have some influence on someone's politics especially regarding the poor.
+
+In Clinton's case she herself was not very tech-savvy, but her staff wasn't either. Clinton not wanting to use a PC, her staff installed the private email server, so she could read her private and government emails on her Blackberry. Usually government officials have to carry several devices, a practice that is also well known at many companies. When her private email server was dismantled it's emails were backuped to a laptop and an usb key. The usb key was promptly lost and the emails were then supposed to be backuped to a new server. Because the staffer was not able to do this remotely she FedEx'd the whole laptop to the company in New Jersey where the new server was located.
+
+This shows to me that even today many leaders are not willing to acknowledge that the world has sufficiently changed. They'll have to upgrade their thinking and their priorities to tackle today's problems. Let's hope this oversight will not cost Hillary Clinton the election and give us mad Donald Trump. He might just declare his conglomerate the defacto government to get rid of such problems.
