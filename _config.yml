@@ -9,8 +9,6 @@ url: https://blog.timbenke.de
 baseurl: ""
 twitter_username: timbenke
 github_username: kossmoboleat
-paginate: 5
-paginate_path: "page:num"
 
 # About/contact
 author:
