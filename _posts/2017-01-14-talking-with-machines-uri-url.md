@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Talking with machines: What is an URI/URL
-date: 2017-01-14 16:42
+date: 2017-01-14 09:30:54.000000000 +01:00
 ---
 
 ## DDD & REST
